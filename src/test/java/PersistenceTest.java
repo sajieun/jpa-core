@@ -226,7 +226,6 @@ public class PersistenceTest {
             System.out.println("트랜잭션 commit 전");
             et.commit();
             System.out.println("트랜잭션 commit 후");
-
         } catch (Exception ex) {
             ex.printStackTrace();
             et.rollback();
